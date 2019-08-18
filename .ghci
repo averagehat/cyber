@@ -1,0 +1,6 @@
+-- :set -fwarn-unused-binds -fwarn-unused-imports
+-- :set -isrc
+:load app/Main.hs
+putStrLn "welp"
+:t main
+main
