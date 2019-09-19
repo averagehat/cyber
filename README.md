@@ -4,4 +4,4 @@
 $ stack run
 ```
 
-[!Alt text](img/cyber.gif)
+![Alt text](img/cyber.gif)
