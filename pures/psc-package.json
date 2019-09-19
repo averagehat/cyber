@@ -1,0 +1,22 @@
+{
+  "name": "pures",
+  "set": "psc-0.13.3",
+  "source": "https://github.com/purescript/package-sets.git",
+  "depends": [
+    "aff",
+    "arrays",
+    "console",
+    "effect",
+    "either",
+    "exceptions",
+    "foldable-traversable",
+    "generics-rep",
+    "maybe",
+    "node-readline",
+    "prelude",
+    "psci-support",
+    "record",
+    "stringutils",
+    "tuples"
+  ]
+}

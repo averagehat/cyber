@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>cyber interface</title>
+        <script src="./lib/termynal.js"> </script>
+        <meta charset="utf-8">
+        <!-- include the termynal stylesheet -->
+        <link rel="stylesheet" href="./lib/termynal.css">
+        <!-- some custom styles for the page -->
+        <link href="https://fonts.googleapis.com/css?family=Fira+Mono">
+        <style>
+            body {
+                padding: 0; margin: 0;
+                background: #1a1e24;
+                width: 100%;
+                min-height: 100vh;
+                display: -webkit-box; display: -ms-flexbox; display: flex;
+                -webkit-box-align: center; -ms-flex-align: center; align-items: center;
+                -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center;
+                -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+            }
+        </style>
+    </head>
+    <body>
+        <p id='counter'> </p>
+        <!-- the termynal container -->
+        <div id="termynal" data-termynal>
+            <span data-ty="input">pip install spacy</span>
+            <span data-ty>Successfully installed spacy</span>
+            <span data-ty></span>
+        </div>
+        <form id="readline" action=""> <input type="text">  </input> </form> 
+        <!-- <span data-ty="progress"></span>  -->
+        <!-- include and initialise termynal.js -->
+        <script src="app.js"></script> 
+        <script src="cyber.js"> </script>
+    </body>
+</html>
