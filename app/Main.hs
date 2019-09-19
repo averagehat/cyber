@@ -1,6 +1,5 @@
 module Main where
 
-import Lib
-
+import Cyber (main2)
 main :: IO ()
-main = someFunc
+main = main2

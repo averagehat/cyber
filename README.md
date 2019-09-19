@@ -1,1 +1,5 @@
-# hsplot
+# Cyber
+
+```bash
+$ stack run
+```
